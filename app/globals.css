@@ -420,6 +420,10 @@ small,
   height: 5px;
   display: flex;
 }
+.audio-toggle {
+  bottom: 149px;
+  min-width: 117px;
+}
 .hero-joke {
   position: absolute;
   z-index: 3;
@@ -1661,6 +1665,10 @@ tr.total td {
     bottom: 90px;
     font-size: 8px;
     padding: 8px 10px;
+  }
+  .audio-toggle {
+    bottom: 130px;
+    min-width: 101px;
   }
   .ticker {
     font-size: 8px;

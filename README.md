@@ -65,3 +65,7 @@ See `docs/RESEARCH.md`, the cited sources on `/plan`, and `docs/ASSETS.md`. Comp
 ## Deliberate limits
 
 No hardware preorder, promised simulator delivery, investment return, training certification, invented Speed Trap revenue, supplier endorsement, live payment test, or sent email is claimed. The source contains no private engineering files, supplier correspondence, donor records or credentials. Contribution terms/benefits are proposed campaign operations for the owner to fulfill when payments are enabled.
+
+## Background music
+
+The supplied `renegadesOfFunk.mp3` is locally hosted and loops on the homepage at background volume. The mute button sits above Pause Film and remembers the visitor’s explicit mute preference. Playback is attempted on landing; when browser autoplay policy blocks sound, the first click/tap (or the Unmute Music button) starts it. Film playback and music are independent.

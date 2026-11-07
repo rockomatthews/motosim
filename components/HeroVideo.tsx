@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import BackgroundAudio from "./BackgroundAudio";
 export default function HeroVideo() {
   const video = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
@@ -22,6 +23,7 @@ export default function HeroVideo() {
   }, []);
   return (
     <>
+      <BackgroundAudio />
       <video
         ref={video}
         className="hero-video"

@@ -118,7 +118,7 @@ export default function Terms() {
           email Rob. Some transaction records may need to be retained.
         </p>
         <p>
-          The site includes locally hosted stock racing media, locally hosted
+          Your music mute preference is saved locally in your browser. The site includes locally hosted stock racing media, locally hosted
           Barlow fonts and a 3D concept. This build does not install marketing
           analytics, advertising pixels or a newsletter subscription. External
           sites have their own privacy policies.
