@@ -365,7 +365,11 @@ export default function Home() {
           {[
             [
               "Is this the first motorcycle simulator?",
-              "No. Moto Trainer, LeanGP and TRZ already market motorcycle hardware, and MOZA has announced a motorcycle handlebar interface. We are testing a specific opportunity in accessible, body-driven consumer VR simulation.",
+              "No—we’re not the first on the scene. We’re building to be the BEST on the scene: combining the fun of racing with the skill and whole-body commitment of riding. Our approach brings physical motorcycle controls and supported lean together with established racing software like MotoGP, the game. The ambition is simple: a blast to play, with a reason to keep getting better.",
+            ],
+            [
+              "Will MotoSIM be playable in MotoGP, the game?",
+              "That’s the goal: a fully playable MotoGP experience with MotoSIM. We want to build on established racing software, so you can focus on the fun, the competition and developing your control skills. MotoGP is a priority compatibility target. Exact game versions, control mapping, steering feedback and the VR setup still need prototype testing; this is planned support, not verified compatibility or a claim that MotoGP provides native VR.",
             ],
             [
               "Does a contribution buy a simulator?",
