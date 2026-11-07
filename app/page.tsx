@@ -47,13 +47,18 @@ export default function Home() {
               <br />
               <b>YOUR SIMULATOR SHOULD BE, TOO.</b>
             </span>
-            <a href="#vision">SCROLL TO THE START LINE ↓</a>
             <span className="footage-credit">
               Racetrack inspiration footage
               <br />
               Not a MotoSIM demonstration
             </span>
           </div>
+          <aside className="hero-joke" aria-label="Not French! Just very American!">
+            <span>Not French!<br />Just very American!</span>
+            <svg viewBox="0 0 240 140" fill="none" aria-hidden="true">
+              <path d="M142 55 C172 77 173 101 153 129 M124 111 Q139 122 153 129 Q174 119 187 108" />
+            </svg>
+          </aside>
         </section>
         <div className="tricolor">
           <span />

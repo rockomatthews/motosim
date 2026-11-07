@@ -54,7 +54,7 @@ The form validates name/email/interest/message length/consent, checks origin, us
 
 ## Visuals & accessibility
 
-An original racing-inspired SVG wordmark; red/white/blue identity; a locally hosted racing video with poster and pause control; a custom procedural Three.js prototype; Theatre.js authored camera/rotation/lean keyframes scrubbed by scroll; interactive lean and assembly controls; and a 3D campaign progress bar. The model is a concept illustration, not engineering CAD.
+The supplied MotoSIM PNG wordmark; a handwritten tricolor joke and arrow; red/white/blue identity; a locally hosted racing video with poster and pause control; a custom procedural Three.js prototype; Theatre.js authored camera/rotation/lean keyframes scrubbed by scroll; interactive lean and assembly controls; and a 3D campaign progress bar. The model is a concept illustration, not engineering CAD.
 
 Three.js loads client-side. Pixel ratio is capped. Hidden/offscreen scenes skip rendering and effects clean up on unmount. Reduced-motion preference pauses the background video and fixes the cinematic timeline. WebGL failure displays a text fallback; the full product details remain in HTML. Fonts are hosted locally.
 

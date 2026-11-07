@@ -131,7 +131,7 @@ export default function Terms() {
           instruction and protective equipment remain essential.
         </p>
         <p>
-          MotoSIM’s racing-inspired mark is original artwork. MotoSIM has no
+          MotoSIM uses the project’s supplied racing-inspired mark. MotoSIM has no
           claimed affiliation, license or endorsement from MotoGP, Dorna, MOZA,
           competing manufacturers, depicted riders or stock-media brands.
           Product names identify sources or research candidates only.

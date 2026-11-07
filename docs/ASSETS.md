@@ -6,3 +6,6 @@
 - `public/logo.svg`, `public/icon.svg`: original geometric MotoSIM artwork. Inspired by motorsport speed and lean; not a MotoGP logo reproduction or affiliation claim. Name/trademark clearance is outstanding.
 - Three.js geometry in `components/RigScene.tsx`: original procedural concept illustration, not manufacturing CAD or a validated hardware build.
 - Speed Trap Racing editorial panel: original typographic artwork linking to the operating venue; no financial results or endorsement claims.
+
+- `public/motosim-logo.png`: user-supplied MotoSIM logo, copied unchanged from the attachment on November 7, 2026. Used in the header and footer.
+- `public/fonts/permanent-marker.ttf`: Permanent Marker by Font Diner, Google Fonts distribution, Apache License 2.0; license in `public/fonts/PERMANENT-MARKER-LICENSE.txt`. Used for the handwritten homepage joke; arrow is original SVG linework.

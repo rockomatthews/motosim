@@ -5,7 +5,7 @@ export function Nav() {
   return (
     <header className="nav">
       <a className="brand" href="/" aria-label="MotoSIM home">
-        <img src="/logo.svg" alt="MotoSIM" width="190" height="40" />
+        <img src="/motosim-logo.png" alt="MotoSIM" width="240" height="36" />
       </a>
       <button
         className="menu-toggle"
@@ -35,7 +35,7 @@ export function Footer() {
   return (
     <footer>
       <a className="brand" href="/" aria-label="MotoSIM home">
-        <img src="/logo.svg" alt="MotoSIM" width="180" height="38" />
+        <img src="/motosim-logo.png" alt="MotoSIM" width="240" height="36" />
       </a>
       <p>FEEL THE LEAN. FUND THE FUTURE.</p>
       <div>
