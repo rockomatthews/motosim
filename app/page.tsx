@@ -3,6 +3,7 @@ import HeroVideo from "@/components/HeroVideo";
 import Experience from "@/components/Experience";
 import Funding from "@/components/Funding";
 import Contact from "@/components/Contact";
+import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -125,6 +126,24 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
+        <section id="cyber-rider" className="cyber-rider" aria-label="The MotoSIM spirit">
+          <figure>
+            <Image
+              src="/media/motosim-cyber-rider-social-v1.png"
+              alt="MotoSIM’s wild cartoon cyber biker leaning a red, white and blue motorcycle into a neon corner, with the MotoSIM logo overhead."
+              width={1734}
+              height={907}
+              sizes="(max-width: 700px) 100vw, 88vw"
+            />
+            <figcaption>
+              <div>
+                <span className="eyebrow">THE MOTOSIM SPIRIT</span>
+                <h2>A little wild.<br /><em>A lot of ride.</em></h2>
+              </div>
+              <a className="button outline" href="#machine">MEET THE MACHINE <span>↓</span></a>
+            </figcaption>
+          </figure>
         </section>
         <section id="machine" className="machine section-pad">
           <div className="section-top">

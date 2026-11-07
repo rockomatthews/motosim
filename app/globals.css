@@ -547,6 +547,53 @@ small,
   background: radial-gradient(ellipse at 60% 38%, #182944 0%, #0b111e 56%);
   overflow: hidden;
 }
+.cyber-rider {
+  padding: 70px 6vw 0;
+  background: #0b111e;
+}
+.cyber-rider figure {
+  margin: 0 auto;
+  max-width: 1500px;
+  border: 1px solid #283c5b;
+  background: #071326;
+  overflow: hidden;
+}
+.cyber-rider img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.cyber-rider figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 40px;
+  background: linear-gradient(110deg, #152441, #0c1526);
+  border-top: 1px solid #283c5b;
+}
+.cyber-rider h2 {
+  margin-top: 12px;
+  font-size: clamp(36px, 4vw, 60px);
+}
+@media (max-width: 700px) {
+  .cyber-rider {
+    padding: 35px 0 0;
+  }
+  .cyber-rider figure {
+    border-left: 0;
+    border-right: 0;
+  }
+  .cyber-rider figcaption {
+    padding: 25px 24px;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .cyber-rider .button {
+    font-size: 9px;
+    padding: 15px 20px;
+  }
+}
 .machine-head {
   display: flex;
   justify-content: space-between;
