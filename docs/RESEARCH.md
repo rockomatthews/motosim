@@ -32,3 +32,13 @@ Carried forward but not newly hardware-verified: official GP Bikes SDK and MOZA 
 ## Implementation documentation consulted
 
 Official Next.js App Router/route handler docs, Theatre.js core/sequences docs, Stripe Checkout and PaymentIntent API references, and Resend send-email/idempotency docs. No secrets or third-party code samples with credentials are included.
+
+## Product scope revision — November 7, 2026
+
+The owner now requires left/right roll AND front/back pitch, with rider-position-aware braking and acceleration cues. The desired experience is physically demanding and makes abrupt inputs and poor body preparation consequential. Controlled forces/travel, rider support, adjustable intensity and independent stop behavior for every powered axis are design requirements; actual ejection is a failure condition. No hardware control or actuator implementation was added by this website change.
+
+The earlier $9,530.06 supported-roll budget is a historical baseline, not a quote or complete cost for this expanded scope. Pitch mechanics, additional actuation if selected, motion-control integration, fore/aft sensing, combined-axis review and validation require revised scope and quotes. The $10,000 campaign remains a first funding milestone rather than a confirmed complete-system build price. The sub-$2,000 retail target also needs reassessment.
+
+The 3D illustration now includes independent roll/pitch controls and cinematic pitch motion. Its numeric slider ranges are visual offsets only, not proposed hardware ratings or safe operating settings. Final mechanism, motion limits and actuation remain unselected. The underlying private engineering package was not modified or fabricated.
+
+The previously cited Westerhof paper was reopened for this revision. It discusses motion axes and cueing in a higher-end research apparatus; it does not validate this consumer mechanism, rider-position feedback policy, or real-world training outcomes.

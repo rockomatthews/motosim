@@ -7,6 +7,7 @@ function authoredState() {
   const props: Record<string, number[]> = {
     yaw: [-0.5, 0.15, 0.65],
     lean: [-0.17, 0.25, -0.14],
+    pitch: [0.08, -0.1, 0.06],
     explode: [0, 0, 0.45],
     cameraZ: [5.5, 4.6, 5.3],
   };
@@ -53,8 +54,10 @@ export default function RigScene({
 }) {
   const host = useRef<HTMLDivElement>(null),
     input = useRef(0),
+    pitchInput = useRef(0),
     exploded = useRef(false);
   const [lean, setLean] = useState(0),
+    [pitch, setPitch] = useState(0),
     [explode, setExplode] = useState(false),
     [failed, setFailed] = useState(false);
   useEffect(() => {
@@ -255,7 +258,7 @@ export default function RigScene({
     const reduced = window.matchMedia(
       "(prefers-reduced-motion: reduce)",
     ).matches;
-    const project = getProject("MotoSIM Cinematic v1", {
+    const project = getProject("MotoSIM Cinematic v2", {
       state: authoredState() as never,
     });
     const sheet = project.sheet("Prototype", funding ? "funding" : "rig");
@@ -263,10 +266,11 @@ export default function RigScene({
     const object = sheet.object("Rig", {
       yaw: 0,
       lean: 0,
+      pitch: 0,
       explode: 0,
       cameraZ: 5.5,
     });
-    let values = { yaw: 0, lean: 0, explode: 0, cameraZ: 5.5 };
+    let values = { yaw: 0, lean: 0, pitch: 0, explode: 0, cameraZ: 5.5 };
     const unsubscribe = object.onValuesChange((v) => {
       values = v;
     }, driver);
@@ -299,7 +303,11 @@ export default function RigScene({
       driver.tick(performance.now());
       if (!funding) {
         model.rotation.y = values.yaw;
-        moving.rotation.x = reduced ? 0 : values.lean + input.current * 0.012;
+        moving.rotation.x =
+          (reduced ? 0 : values.lean) + THREE.MathUtils.degToRad(input.current);
+        moving.rotation.z =
+          (reduced ? 0 : values.pitch) +
+          THREE.MathUtils.degToRad(pitchInput.current);
         moving.position.y = THREE.MathUtils.lerp(
           moving.position.y,
           exploded.current ? 1.1 : 0.5,
@@ -340,13 +348,13 @@ export default function RigScene({
         aria-label={
           funding
             ? "Three-dimensional campaign progress bar"
-            : "Interactive three-dimensional MotoSIM supported-lean prototype concept"
+            : "Interactive three-dimensional MotoSIM roll-and-pitch prototype concept"
         }
       />
       {failed && (
         <div className="scene-fallback">
           <span>MS—01</span>
-          <p>Supported lean · Race controls · Required VR</p>
+          <p>Side-to-side roll · Front-to-back pitch · Required VR</p>
           <p>
             3D preview requires WebGL. Explore the full specifications below.
           </p>
@@ -356,11 +364,14 @@ export default function RigScene({
         <>
           <div className="model-tag">
             <span className="status-dot" /> MS—01 / CONCEPT STUDY{" "}
-            <small>Illustrative geometry · not manufacturing CAD</small>
+            <small>
+              Roll + pitch concept · visual angles only · hardware limits not
+              set
+            </small>
           </div>
           <div className="rig-controls">
             <label>
-              EXPLORE THE LEAN{" "}
+              ROLL / LEFT–RIGHT{" "}
               <input
                 aria-label="Lean the prototype"
                 type="range"
@@ -372,7 +383,22 @@ export default function RigScene({
                   input.current = +e.target.value;
                 }}
               />
-              <span>{lean}° visual</span>
+              <span>{lean}° offset</span>
+            </label>
+            <label>
+              PITCH / FRONT–BACK{" "}
+              <input
+                aria-label="Pitch the prototype forward and backward"
+                type="range"
+                min="-12"
+                max="12"
+                value={pitch}
+                onChange={(e) => {
+                  setPitch(+e.target.value);
+                  pitchInput.current = +e.target.value;
+                }}
+              />
+              <span>{pitch}° offset</span>
             </label>
             <button
               aria-pressed={explode}

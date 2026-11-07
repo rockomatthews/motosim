@@ -69,3 +69,7 @@ No hardware preorder, promised simulator delivery, investment return, training c
 ## Background music
 
 The supplied `renegadesOfFunk.mp3` is locally hosted and loops on the homepage at background volume. The mute button sits above Pause Film and remembers the visitor’s explicit mute preference. Playback is attempted on landing; when browser autoplay policy blocks sound, the first click/tap (or the Unmute Music button) starts it. Film playback and music are independent.
+
+## Expanded motion target — November 7, 2026
+
+The product now targets supported roll (left/right) and pitch (front/back), with rider-position-aware acceleration/braking cues. The website and business plan describe this as proposed, unvalidated scope. The 3D concept demonstrates both axes through visual controls; it sends no hardware commands. The previous $9,530.06 roll-only estimate does not price the expanded system. Revised engineering and quotes must reconcile motion hardware, sensing, safety review, budget and retail affordability before commitment.

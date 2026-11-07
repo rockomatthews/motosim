@@ -97,8 +97,10 @@ export default function Funding() {
         <div>
           <p>
             Your contribution helps turn engineering work into a physical
-            prototype. This first campaign funds feasibility, fabrication, and
-            initial evaluation—not production inventory.
+            prototype. This first campaign funds feasibility and staged
+            development toward roll, pitch and rider-aware feedback. The
+            expanded motion scope needs revised engineering and quotes before a
+            complete build is committed.
           </p>
           <a className="text-link" href="/plan#capital">
             Read the use-of-funds plan ↗

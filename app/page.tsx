@@ -36,7 +36,7 @@ export default function Home() {
               </a>
             </div>
             <div className="hero-specs">
-              <span>PHYSICAL LEAN</span>
+              <span>ROLL + PITCH MOTION</span>
               <span>STEERING FEEDBACK</span>
               <span>VR REQUIRED</span>
             </div>
@@ -54,8 +54,15 @@ export default function Home() {
               Not a MotoSIM demonstration
             </span>
           </div>
-          <aside className="hero-joke" aria-label="Not French! Just very American!">
-            <span>Not French!<br />Just very American!</span>
+          <aside
+            className="hero-joke"
+            aria-label="Not French! Just very American!"
+          >
+            <span>
+              Not French!
+              <br />
+              Just very American!
+            </span>
             <svg viewBox="0 0 240 140" fill="none" aria-hidden="true">
               <path d="M142 55 C172 77 173 101 153 129 M124 111 Q139 122 153 129 Q174 119 187 108" />
             </svg>
@@ -105,7 +112,7 @@ export default function Home() {
               </p>
               <p>
                 Our opportunity is focused: an accessible consumer rig that
-                combines supported physical lean, motorcycle controls, useful
+                combines supported roll and pitch, motorcycle controls, useful
                 steering feedback, and a repeatable setup. Existing motorcycle
                 simulators prove the category exists. Now we need to prove our
                 place in it.
@@ -120,14 +127,18 @@ export default function Home() {
                   <small>
                     Design objective · PC, headset and software extra
                     <br />
-                    Production cost and retail price not yet validated
+                    Two-axis production cost and retail price not yet validated
                   </small>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section id="cyber-rider" className="cyber-rider" aria-label="The MotoSIM spirit">
+        <section
+          id="cyber-rider"
+          className="cyber-rider"
+          aria-label="The MotoSIM spirit"
+        >
           <figure>
             <Image
               src="/media/motosim-cyber-rider-social-v1.png"
@@ -139,9 +150,15 @@ export default function Home() {
             <figcaption>
               <div>
                 <span className="eyebrow">THE MOTOSIM SPIRIT</span>
-                <h2>A little wild.<br /><em>A lot of ride.</em></h2>
+                <h2>
+                  A little wild.
+                  <br />
+                  <em>A lot of ride.</em>
+                </h2>
               </div>
-              <a className="button outline" href="#machine">MEET THE MACHINE <span>↓</span></a>
+              <a className="button outline" href="#machine">
+                MEET THE MACHINE <span>↓</span>
+              </a>
             </figcaption>
           </figure>
         </section>
@@ -169,13 +186,13 @@ export default function Home() {
             {[
               [
                 "01",
-                "Lean into it.",
-                "A supported physical lean mechanism, with engineered stops and a secure mounting position. Lean range and rider limits will be set by engineering tests.",
+                "Lean in every direction.",
+                "Left and right for cornering. Front and back for braking and acceleration. The target is a supported two-axis rig with engineered stops, controlled motion and a secure mounting position. Travel and force limits require engineering tests.",
               ],
               [
                 "02",
-                "Make every input count.",
-                "Race-style seating, knee contact, throttle, clutch, front and rear brake, and foot shifting. Steering feedback is a core feasibility gate.",
+                "Feel the consequences.",
+                "Hard braking should bring a convincing forward-load cue; hard throttle should bring a rearward-load cue. Rider-position sensing is part of the target, so body preparation matters alongside your inputs. Adjustable intensity, body support and a safe stop are core design requirements.",
               ],
               [
                 "03",
@@ -190,6 +207,14 @@ export default function Home() {
               </article>
             ))}
           </div>
+          <p className="motion-brief">
+            <strong>Braking. Acceleration. Body position.</strong> The ambition
+            is a demanding ride that makes abrupt inputs and poor body
+            preparation feel consequential. Roll, pitch, steering feedback and
+            rider sensing must work together. These are proposed capabilities
+            awaiting hardware validation; pitch alone cannot recreate sustained
+            braking or acceleration forces.
+          </p>
           <p className="fine">
             Interactive concept visualization. This is not a working hardware
             demonstration, validated lean range, or final industrial design.
@@ -323,7 +348,7 @@ export default function Home() {
                 "02",
                 "BENCH & PHYSICAL PROTOTYPE",
                 "Seeking funding",
-                "Confirm supplier prices, release engineering drawings, prove steering shutdown behavior, then assemble the supported-lean rig.",
+                "Re-scope the frame for roll and pitch, quote motion hardware and rider sensing, release reviewed drawings, and prove safe stop behavior on every powered axis before rider use.",
               ],
               [
                 "03",
@@ -403,8 +428,12 @@ export default function Home() {
               "The intended experience requires a compatible PC and PC-connected VR headset, plus supported simulation software. Specific headsets, games, control modes and performance requirements remain subject to testing.",
             ],
             [
+              "Does it move forward and backward as well as side to side?",
+              "Yes—that is now part of the product target. MotoSIM is being scoped for left/right roll and front/back pitch, with braking and acceleration cues informed by rider position. We want abrupt inputs and poor body preparation to feel consequential, with engineered support, adjustable intensity, controlled force/travel and independent shutdown. The two-axis system has not been built or validated, and its cost still needs revised engineering and quotes.",
+            ],
+            [
               "What happens if the prototype costs more?",
-              "The $9,530.06 prototype estimate includes contingency but contractor costs are not confirmed. We stop before commitments exceed the $10,000 cap, report the gap, and revise scope or funding. Production and a VR headset budget are separate.",
+              "The earlier $9,530.06 estimate covered the supported-roll baseline. Adding front/back pitch, motion control and rider-position-aware cues expands the scope and needs revised engineering and quotes. The $10,000 campaign remains an initial funding milestone, not a confirmed price for the complete two-axis prototype. We revise the scope and funding plan before committing beyond available funds. Production, PC and VR headset costs are separate.",
             ],
           ].map(([q, a]) => (
             <details key={q}>

@@ -438,7 +438,9 @@ small,
 .hero-joke span {
   display: block;
   text-align: center;
-  font: 18px/1.35 'Permanent Marker', cursive;
+  font:
+    18px/1.35 "Permanent Marker",
+    cursive;
   text-transform: uppercase;
 }
 .hero-joke svg {
@@ -452,11 +454,11 @@ small,
   stroke-linejoin: round;
 }
 @font-face {
-  font-family: 'Permanent Marker';
+  font-family: "Permanent Marker";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/permanent-marker.ttf') format('truetype');
+  src: url("/fonts/permanent-marker.ttf") format("truetype");
 }
 .tricolor span {
   width: 33.333%;
@@ -646,11 +648,22 @@ small,
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  flex-wrap: wrap;
+}
+.motion-brief {
+  max-width: 100%;
+  padding: 22px 26px;
+  border-left: 3px solid var(--red);
+  background: #16233a;
+  font-size: 14px;
+}
+.motion-brief strong {
+  color: white;
 }
 .rig-controls label {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 12px;
   font-size: 9px;
   letter-spacing: 0.1em;
 }
@@ -1773,7 +1786,7 @@ tr.total td {
     max-width: 100%;
   }
   .rig-visual {
-    height: 420px;
+    height: 480px;
     margin: 20px -24px 30px;
   }
   .model-tag {

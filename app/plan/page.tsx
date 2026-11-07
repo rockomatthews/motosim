@@ -148,9 +148,9 @@ export default function Plan() {
               Sim racing has taught consumers to expect physical controls,
               feedback and repeatable practice. A motorcycle demands another
               layer: the rider’s body is part of the control system. MotoSIM’s
-              product hypothesis is that a supported-lean controller with
-              consistent race-style contact points can make PC VR racing more
-              compelling than a handheld controller, at a consumer price.
+              product hypothesis is that a supported roll-and-pitch controller
+              with consistent race-style contact points can make PC VR racing
+              more compelling than a handheld controller, at a consumer price.
             </p>
             <p>
               The intended customer is an existing rider or motorcycle sim
@@ -174,10 +174,12 @@ export default function Plan() {
                 <h3>What this raise buys</h3>
                 <p>
                   A $10,000 first-stage campaign to resolve feasibility,
-                  commission reviewed mechanical/electrical work, assemble one
-                  prototype, and run initial evaluation. The earlier selected
-                  estimate is $9,530.06. Actual delivered costs, technical
-                  compatibility and rider response remain unconfirmed.
+                  commission reviewed mechanical/electrical work, and progress
+                  through staged prototype gates. The earlier $9,530.06 estimate
+                  covered the supported-roll baseline. Front/back pitch and
+                  rider-position-aware braking/acceleration cues expand that
+                  scope; a complete two-axis build now needs revised design,
+                  quotes and a reconciled funding plan.
                 </p>
               </div>
             </div>
@@ -328,9 +330,31 @@ export default function Plan() {
               The initial prototype does not need a full motorcycle shell. It
               needs a coherent racing posture: saddle, knee support, pegs,
               handlebars, progressive brake feel, throttle return, clutch and
-              gear controls. Physical lean should be supported and limited so
-              the rider can focus on coordinated inputs rather than hanging off
-              an unstable prop.
+              gear controls. The product target now includes two physical axes:
+              left/right roll and front/back pitch, with rider-position-aware
+              braking and acceleration cues. The platform must support the rider
+              throughout its reviewed operating envelope.
+            </p>
+            <h3>Make braking and acceleration matter</h3>
+            <p>
+              The intended sensation is demanding: braking should create a
+              convincing forward-load cue, and acceleration a rearward-load cue,
+              so coordinated body preparation matters alongside throttle and
+              brake technique. The owner’s goal is that a poorly prepared rider
+              feels the consequence of abrupt inputs. Physical support and
+              controlled motion must keep that sensation within an independently
+              reviewed envelope; actual ejection is a failure condition.
+            </p>
+            <p>
+              Cue design must use the virtual vehicle’s measured acceleration
+              and state, not assume that throttle position always means
+              acceleration. Track chassis roll, chassis pitch and rider
+              fore/aft/lateral motion separately. Rider-position mismatch must
+              never command forces beyond the approved envelope. Posture
+              coaching and virtual riding outcomes can communicate errors while
+              physical intensity remains bounded. This is a research
+              requirement, not an implemented controller or proven training
+              method.
             </p>
             <div className="table-wrap">
               <table>
@@ -343,14 +367,29 @@ export default function Plan() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Lean & structure</td>
+                    <td>Roll, pitch & structure</td>
                     <td>
-                      Outsourced welded frame, passive supported lean, guards,
-                      stops and mounting lock.
+                      Re-scope the supported frame for left/right roll and
+                      front/back pitch, with guards, independent stops and a
+                      mounting lock. Motion mechanism and actuation remain to be
+                      selected.
                     </td>
                     <td>
-                      Reviewed loads, stability, fatigue assumptions, pinch
-                      protection and rider operating envelope.
+                      Reviewed combined-axis loads, stability, fatigue, pinch
+                      protection, rider support and operating envelope. Re-quote
+                      the frame before fabrication.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Longitudinal motion cues</td>
+                    <td>
+                      Investigate controlled braking/acceleration pitch cues,
+                      rider fore/aft sensing and adjustable intensity.
+                    </td>
+                    <td>
+                      Validate cue direction, timing, bounded motion/forces,
+                      game-data loss, power-loss behavior and an independent
+                      stop for every powered axis before any rider test.
                     </td>
                   </tr>
                   <tr>
@@ -369,7 +408,8 @@ export default function Plan() {
                     <td>Controls & sensing</td>
                     <td>
                       Native USB controls plus independent logging of steering
-                      effort, chassis lean and rider motion.
+                      effort, chassis roll/pitch and rider lateral/fore-aft
+                      motion.
                     </td>
                     <td>
                       Calibrated axes, repeatable device identity and measured
@@ -396,7 +436,8 @@ export default function Plan() {
                     </td>
                     <td>
                       Frame-time stability, tracking origin,
-                      horizon/physical-roll relationship and comfort evaluated.
+                      horizon/physical-roll/pitch relationship and comfort
+                      evaluated.
                     </td>
                   </tr>
                 </tbody>
@@ -413,11 +454,14 @@ export default function Plan() {
               implementation. <S n={7} />
             </p>
             <p>
-              A home rig also cannot reproduce sustained lateral acceleration.
-              Full physical tilt without corresponding forces can create
-              misleading cues. We must tune support, limited motion and VR
-              presentation together, and publish the limitations rather than
-              equating visual lean angle with physical fidelity.
+              A home rig cannot recreate sustained lateral or longitudinal
+              acceleration merely by tilting. Full physical tilt without
+              corresponding forces can create misleading cues. We must tune
+              support, limited motion and VR presentation together, and publish
+              the limitations rather than equating visual lean angle with
+              physical fidelity. The motorcycle simulator research informs
+              motion-cue experiments, but does not validate this proposed
+              two-axis consumer implementation. <S n={6} />
             </p>
             <h3>Keep v1 narrow</h3>
             <p>
@@ -427,7 +471,9 @@ export default function Plan() {
               bodywork, multi-game support promises, and production tooling
               before the core ride is established. Required VR is a product
               requirement; the earlier $9,530.06 hardware plan did not include a
-              headset or PC, so those must be supplied separately for testing.
+              headset or PC, or the newly requested pitch/motion-control scope.
+              Those costs and the target retail price must be revisited before a
+              full-system commitment.
             </p>
           </section>
           <section id="validation" className="plan-section">
@@ -608,7 +654,7 @@ export default function Plan() {
             <h2>
               The first $10,000.
               <br />
-              <em>Accounted for.</em>
+              <em>A baseline to revise.</em>
             </h2>
             <p>
               The selected engineering plan, dated October 25, 2026, allocates
@@ -618,11 +664,21 @@ export default function Plan() {
               accepted quote or confirmed delivered total is represented here.
               This website does not publish private supplier correspondence.
             </p>
+            <p className="callout">
+              Scope update, November 7: the figures below are the earlier
+              supported-roll baseline, not the cost of the newly requested
+              two-axis system. Pitch mechanics, any added actuation, motion
+              control, rider fore/aft sensing, combined-axis review and
+              validation have not been quoted. The $10,000 campaign is an
+              initial funding milestone; complete-system cost, schedule and
+              affordability remain open until the revised design and quotes are
+              reconciled.
+            </p>
             <div className="table-wrap">
               <table>
                 <thead>
                   <tr>
-                    <th>Prototype allocation</th>
+                    <th>Earlier baseline allocation</th>
                     <th>USD</th>
                     <th>Basis & limits</th>
                   </tr>
@@ -667,10 +723,11 @@ export default function Plan() {
                     </tr>
                   ))}
                   <tr className="total">
-                    <td>Total allocated</td>
+                    <td>Earlier baseline subtotal</td>
                     <td>$9,530.06</td>
                     <td>
-                      $469.94 unallocated headroom within the $10,000 cap.
+                      $469.94 baseline headroom; no demonstrated allowance for
+                      the new pitch scope.
                     </td>
                   </tr>
                 </tbody>
