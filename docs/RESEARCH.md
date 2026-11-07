@@ -42,3 +42,8 @@ The earlier $9,530.06 supported-roll budget is a historical baseline, not a quot
 The 3D illustration now includes independent roll/pitch controls and cinematic pitch motion. Its numeric slider ranges are visual offsets only, not proposed hardware ratings or safe operating settings. Final mechanism, motion limits and actuation remain unselected. The underlying private engineering package was not modified or fabricated.
 
 The previously cited Westerhof paper was reopened for this revision. It discusses motion axes and cueing in a higher-end research apparatus; it does not validate this consumer mechanism, rider-position feedback policy, or real-world training outcomes.
+
+
+## Revised prototype hardware plan — November 7, 2026
+
+The current conditional plan is $9,870 including $1,000 reserve and $130 headroom. It supersedes the historical $9,530.06 roll-only budget mentioned above. Commercial H2 full-platform roll/pitch, passive instrumented steering, a purchased PC VR headset and a four-rider pilot replace the earlier scope. PC/founder labor remain excluded; powered steering and the 12-rider repeated study are deferred. Custom caps, manufacturer acceptance and actual landed costs remain unresolved. See [the complete hardware plan](ROLL-PITCH-PROTOTYPE.md) and `/plan#capital`; budget JSON is in `public/downloads/motosim-roll-pitch-budget.json`. No revised RFQ or purchase was sent.

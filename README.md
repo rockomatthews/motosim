@@ -73,3 +73,8 @@ The supplied `renegadesOfFunk.mp3` is locally hosted and loops on the homepage a
 ## Expanded motion target — November 7, 2026
 
 The product now targets supported roll (left/right) and pitch (front/back), with rider-position-aware acceleration/braking cues. The website and business plan describe this as proposed, unvalidated scope. The 3D concept demonstrates both axes through visual controls; it sends no hardware commands. The previous $9,530.06 roll-only estimate does not price the expanded system. Revised engineering and quotes must reconcile motion hardware, sensing, safety review, budget and retail affordability before commitment.
+
+
+## Revised prototype hardware plan — November 7, 2026
+
+The current conditional plan is $9,870 including $1,000 reserve and $130 headroom. It supersedes the historical $9,530.06 roll-only budget mentioned above. Commercial H2 full-platform roll/pitch, passive instrumented steering, a purchased PC VR headset and a four-rider pilot replace the earlier scope. PC/founder labor remain excluded; powered steering and the 12-rider repeated study are deferred. Custom caps, manufacturer acceptance and actual landed costs remain unresolved. See [the complete hardware plan](docs/ROLL-PITCH-PROTOTYPE.md) and `/plan#capital`; budget JSON is in `public/downloads/motosim-roll-pitch-budget.json`. No revised RFQ or purchase was sent.

@@ -348,13 +348,13 @@ export default function Home() {
                 "02",
                 "BENCH & PHYSICAL PROTOTYPE",
                 "Seeking funding",
-                "Re-scope the frame for roll and pitch, quote motion hardware and rider sensing, release reviewed drawings, and prove safe stop behavior on every powered axis before rider use.",
+                "The revised $9,870 plan uses commercial roll/pitch motion, passive instrumented steering and included VR. Quotes, manufacturer acceptance and safe-stop testing come before rider use.",
               ],
               [
                 "03",
                 "RIDER EVALUATION",
                 "After bench approval",
-                "A planned 12-rider comparison measures control consistency, comfort, setup and perceived fidelity. This is a feasibility study, not proof of safer riding.",
+                "Start with a four-rider supervised feasibility pilot. A separately funded 12-rider comparison follows; neither establishes real-road safety benefits.",
               ],
               [
                 "04",
@@ -429,11 +429,11 @@ export default function Home() {
             ],
             [
               "Does it move forward and backward as well as side to side?",
-              "Yes—that is now part of the product target. MotoSIM is being scoped for left/right roll and front/back pitch, with braking and acceleration cues informed by rider position. We want abrupt inputs and poor body preparation to feel consequential, with engineered support, adjustable intensity, controlled force/travel and independent shutdown. The two-axis system has not been built or validated, and its cost still needs revised engineering and quotes.",
+              "Yes—that is now part of the product target. MotoSIM is being scoped for left/right roll and front/back pitch, with braking and acceleration cues informed by rider position. We want abrupt inputs and poor body preparation to feel consequential, with engineered support, adjustable intensity, controlled force/travel and independent shutdown. The revised $9,870 plan prioritizes roll/pitch and defers powered steering. Hardware, cues and compatibility remain unvalidated; posture errors never trigger punishment motion.",
             ],
             [
               "What happens if the prototype costs more?",
-              "The earlier $9,530.06 estimate covered the supported-roll baseline. Adding front/back pitch, motion control and rider-position-aware cues expands the scope and needs revised engineering and quotes. The $10,000 campaign remains an initial funding milestone, not a confirmed price for the complete two-axis prototype. We revise the scope and funding plan before committing beyond available funds. Production, PC and VR headset costs are separate.",
+              "The revised roll/pitch plan totals $9,870 including a headset, $900 tax/import/other-delivery allowance and $1,000 contingency, leaving $130 headroom. It assumes an existing gaming PC and defers powered steering and the full 12-rider study. Custom scopes are spending caps, not accepted quotes. We reconcile manufacturer approval, landed prices and net campaign cash before buying; the campaign goal is not a guaranteed complete-system price.",
             ],
           ].map(([q, a]) => (
             <details key={q}>

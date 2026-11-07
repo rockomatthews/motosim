@@ -1,0 +1,127 @@
+{
+  "version": "MS-P1-RP1",
+  "asOf": "2026-11-07",
+  "currency": "USD",
+  "capUsd": 10000,
+  "status": "Conditional planning ceilings; no accepted custom quotes or hardware validation",
+  "architecture": "Commercial full-platform roll/pitch; passive instrumented steering; compact motorcycle contact-point bridge; PC VR",
+  "rows": [
+    {
+      "id": "RP01",
+      "item": "DOF Reality H2 full-platform roll/pitch",
+      "usd": 2499,
+      "basis": "Current US catalog listing; not a delivered quote",
+      "source": "https://dofreality.com/product/racing/motion-racing-rig-2-axis-hero-h2/",
+      "scope": "Factory frame, two-axis drivetrain, controller, power supplies, cables and included SRS base license. Custom motorcycle use requires manufacturer acceptance."
+    },
+    {
+      "id": "RP02",
+      "item": "H2 freight to United States",
+      "usd": 691,
+      "basis": "Manufacturer country-level shipping estimate; ZIP quote pending",
+      "source": "https://dofreality.com/product/racing/motion-racing-rig-2-axis-hero-h2/",
+      "scope": "H2 freight only; no assumption of prepaid import charges."
+    },
+    {
+      "id": "RP03",
+      "item": "Controls and independent rider sensing",
+      "usd": 500,
+      "basis": "Ceiling based on retained October catalog lines plus added sensors; refresh prices",
+      "source": "",
+      "scope": "Two BU0836-LC boards, PhidgetBridge logger, three brake/steering force cells, five pots, four VL53L1X torso sensors, QT Py, mux, five branch leads, throttle/cable/levers/grips and sensor spares. No powered steering base."
+    },
+    {
+      "id": "RP04",
+      "item": "Bolt-on motorcycle bridge and passive steering",
+      "usd": 850,
+      "basis": "Unquoted complete fabrication ceiling",
+      "source": "",
+      "scope": "All material, shop labor, saddle/pads, knee contacts, pegs, bar column/bearings/centering/damping/stops, adapter, brake/clutch/throttle/shift mechanisms, switches, brackets, fasteners, overload protection and assembly. No second roll gimbal."
+    },
+    {
+      "id": "RP05",
+      "item": "Harness, guarding and shutdown integration",
+      "usd": 600,
+      "basis": "Unquoted complete installed ceiling",
+      "source": "",
+      "scope": "Protected signal wiring, boxes, USB hub/cables, strain relief, moving loops, guarding, mounting lock/support, accessible stop, reviewed fault inhibit/restart integration and installation. Manufacturer-supported interface only; exact safety parts pending design."
+    },
+    {
+      "id": "RP06",
+      "item": "Mechanical/electrical review and commissioning",
+      "usd": 1800,
+      "basis": "Unquoted fixed-scope service ceiling",
+      "source": "",
+      "scope": "Mechanical $900; electrical/control/VR commissioning $900. Combined-axis load/stability/CoG review, drawings, interface and shutdown acceptance, calibrated bench-tool access and test record. Scope acceptance required; not an assumed number of free contractor hours."
+    },
+    {
+      "id": "RP07",
+      "item": "PC VR headset and wired Link cable",
+      "usd": 430,
+      "basis": "Quest 3S 128 GB $349.99 plus Meta Link cable $79.99, rounded up; runtime test required",
+      "source": "https://www.meta.com/quest/quest-3s/",
+      "scope": "Headset purchase included. Wired PC VR, not standalone game execution. Existing VR-capable Windows PC and monitor excluded."
+    },
+    {
+      "id": "RP08",
+      "item": "Motion compensation and tracking fallback",
+      "usd": 180,
+      "basis": "$19.99 first-year SRS Premium listing plus $160.01 fallback allowance",
+      "source": "https://www.simracingstudio.com/product-page/premium-subscription",
+      "scope": "Try IntelliComp with OpenVR/OpenXR compensation first. If required, quote exact compatible tracker, cable and mount within remainder; old WitMotion route specifically needs RS232 variant. Future subscription renewals excluded."
+    },
+    {
+      "id": "RP09",
+      "item": "Game licenses and software allowance",
+      "usd": 120,
+      "basis": "Spending allowance; game versions/compatibility unproven",
+      "source": "https://www.simracingstudio.com/pc-games",
+      "scope": "GP Bikes first ($50 ceiling) and up to $70 for a separate MotoGP control-mapping test. No guaranteed current MotoGP telemetry or native VR."
+    },
+    {
+      "id": "RP10",
+      "item": "Bench consumables and four-rider feasibility pilot",
+      "usd": 300,
+      "basis": "Expense allowance, not recruited participants",
+      "source": "",
+      "scope": "$140 fixtures/consumables plus four experienced riders at $40 each. Contractor calibrated tools in RP06. Appropriate test space/coverage required within accepted scope or separately funded before testing."
+    },
+    {
+      "id": "RP11",
+      "item": "Tax, imports, other deliveries and currency fees",
+      "usd": 900,
+      "basis": "Allowance; no tax/duty rate or landed quote assumed",
+      "source": "",
+      "scope": "All sales/use taxes, import duty/brokerage and non-H2 freight. Does not count RP02 freight again. Destination-specific reconciliation required before order."
+    },
+    {
+      "id": "RP12",
+      "item": "Ring-fenced revision contingency",
+      "usd": 1000,
+      "basis": "Reserved cash",
+      "source": "",
+      "scope": "Fit changes, replacement components and genuine overruns; not available for optional upgrades at order time."
+    }
+  ],
+  "plannedTotalUsd": 9870,
+  "unallocatedUsd": 130,
+  "excluded": [
+    "Existing VR-capable Windows PC and monitor",
+    "Founder implementation labor",
+    "Powered steering feedback and its motor integration",
+    "Tactile shaker, wind, active belts, surge/yaw/heave axes",
+    "Full 12-rider repeated-session study",
+    "Extra premises/insurance costs unless confirmed within accepted test scope",
+    "Production tooling, inventory, compliance, IP/legal work and training-transfer trials",
+    "Future software subscription renewals",
+    "Campaign fees and reward fulfillment, which must be funded separately from this net-cash cap"
+  ],
+  "releaseGates": [
+    "Written H2 manufacturer acceptance of motorcycle bridge, moving mass, rider envelope, CoG and load cases",
+    "Accepted fixed-scope fabrication, safety integration and engineering quotes",
+    "Actual Park City UT 84060 delivered/import/tax totals reconciled to net available cash",
+    "Unoccupied structural, shutdown, stale-input, disconnect and no-auto-restart tests",
+    "Verified GP Bikes telemetry, control separation and selected PC VR compensation stack",
+    "Engineer-approved occupied envelope and test arrangements before rider pilot"
+  ]
+}

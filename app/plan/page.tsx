@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Nav, Footer } from "@/components/Nav";
 import Economics from "@/components/Economics";
+import prototypeBudget from "@/public/downloads/motosim-roll-pitch-budget.json";
 export const metadata: Metadata = {
   title: "The business plan",
   description:
@@ -84,6 +85,24 @@ const sources = [
     "Pexels — license",
     "https://www.pexels.com/license/",
     "Stock-media use and endorsement restrictions. Original MotoSIM marks and concept geometry are separately created.",
+  ],
+  [
+    "S14",
+    "DOF Reality — H2 full-platform roll/pitch",
+    "https://dofreality.com/product/racing/motion-racing-rig-2-axis-hero-h2/",
+    "US catalog $2,499 plus $691 country-level US freight at November 7 review. Custom motorcycle payload/use acceptance and destination-specific landed quote pending.",
+  ],
+  [
+    "S15",
+    "Sim Racing Studio — supported PC games",
+    "https://www.simracingstudio.com/pc-games",
+    "Lists GP Bikes and Moto GP 2018; does not establish current MotoGP motion telemetry or native VR support.",
+  ],
+  [
+    "S16",
+    "SRS — IntelliComp motion compensation",
+    "https://simracingstudio.freshdesk.com/support/solutions/articles/35000264496-intellicomp-motion-compensation-setup-compensation-setup",
+    "Newer compensation route supports DOF Reality without a physical tracker; requires Premium and an appropriate OpenVR/OpenXR stack. Actual headset/game configuration untested.",
   ],
 ];
 function S({ n }: { n: number }) {
@@ -175,11 +194,10 @@ export default function Plan() {
                 <p>
                   A $10,000 first-stage campaign to resolve feasibility,
                   commission reviewed mechanical/electrical work, and progress
-                  through staged prototype gates. The earlier $9,530.06 estimate
-                  covered the supported-roll baseline. Front/back pitch and
-                  rider-position-aware braking/acceleration cues expand that
-                  scope; a complete two-axis build now needs revised design,
-                  quotes and a reconciled funding plan.
+                  through staged prototype gates. The revised $9,870 roll/pitch
+                  plan includes VR and contingency, defers powered steering, and
+                  starts with four experienced riders. Custom quotes,
+                  manufacturer approval and game/VR acceptance remain open.
                 </p>
               </div>
             </div>
@@ -296,9 +314,9 @@ export default function Plan() {
                 equipment, unmet needs, space and price constraints.
               </li>
               <li>
-                <b>Experience gate:</b> a planned 12-rider feasibility study
-                after hardware approval, with documented dropouts and negative
-                results.
+                <b>Experience gate:</b> a four-rider supervised pilot after
+                hardware approval, followed by a separately funded 12-rider
+                study with documented dropouts and negative results.
               </li>
               <li>
                 <b>Demand gate:</b> aim for 100 consented expressions of
@@ -369,10 +387,9 @@ export default function Plan() {
                   <tr>
                     <td>Roll, pitch & structure</td>
                     <td>
-                      Re-scope the supported frame for left/right roll and
-                      front/back pitch, with guards, independent stops and a
-                      mounting lock. Motion mechanism and actuation remain to be
-                      selected.
+                      Use a commercial H2 full-platform roll/pitch base and a
+                      compact bolt-on motorcycle bridge, with reviewed guards,
+                      stops, support and mounting lock.
                     </td>
                     <td>
                       Reviewed combined-axis loads, stability, fatigue, pinch
@@ -395,13 +412,13 @@ export default function Plan() {
                   <tr>
                     <td>Steering feedback</td>
                     <td>
-                      Investigate the previously selected MOZA R9 V3 component
-                      route, with independent steering support.
+                      Use passive centering/damping and independent steering
+                      sensing first; powered R9 feedback is deferred.
                     </td>
                     <td>
-                      Supported interface, force/angle limits, stale-command
-                      behavior and deliberate rearm proven on hardware.{" "}
-                      <S n={9} />
+                      Review bar/column loads, stops, return behavior and
+                      measured input semantics. Any later powered upgrade
+                      requires its own budget and fault acceptance. <S n={9} />
                     </td>
                   </tr>
                   <tr>
@@ -470,10 +487,10 @@ export default function Plan() {
               appropriate. Avoid a proprietary physics engine, decorative
               bodywork, multi-game support promises, and production tooling
               before the core ride is established. Required VR is a product
-              requirement; the earlier $9,530.06 hardware plan did not include a
-              headset or PC, or the newly requested pitch/motion-control scope.
-              Those costs and the target retail price must be revisited before a
-              full-system commitment.
+              requirement; the revised $9,870 plan includes a headset and pitch,
+              while assuming an existing suitable gaming PC. This
+              commercial-platform demonstrator does not substantiate the target
+              retail price.
             </p>
           </section>
           <section id="validation" className="plan-section">
@@ -508,10 +525,12 @@ export default function Plan() {
                 mechanical/electrical review before a rider mounts.
               </li>
               <li>
-                <b>Fidelity and comfort study.</b> Target 12 riders across
-                experience levels. Counterbalance condition order, provide equal
-                familiarization, use the same tasks, record sickness and stop
-                requests, and preserve all adverse observations.
+                <b>Fidelity and comfort study.</b> Begin with four experienced
+                riders in the capped prototype milestone. A later, separately
+                funded study targets 12 riders across experience levels.
+                Counterbalance condition order, provide equal familiarization,
+                use the same tasks, record sickness and stop requests, and
+                preserve all adverse observations.
               </li>
               <li>
                 <b>Compare with a baseline.</b> Measure against gamepad/VR and,
@@ -654,85 +673,74 @@ export default function Plan() {
             <h2>
               The first $10,000.
               <br />
-              <em>A baseline to revise.</em>
+              <em>Roll. Pitch. Prove it.</em>
             </h2>
             <p>
-              The selected engineering plan, dated October 25, 2026, allocates
-              $9,530.06 against a $10,000 prototype cash cap. It includes
-              contractor spending ceilings, not accepted supplier quotations.
-              Seven tailored RFQs were sent in the earlier engineering work; no
-              accepted quote or confirmed delivered total is represented here.
-              This website does not publish private supplier correspondence.
+              The November 7 prototype plan allocates $9,870, including a VR
+              headset, $900 for taxes/imports/other deliveries and a $1,000
+              contingency. That leaves $130 unallocated. This is a conditional
+              cash plan with unquoted custom work, not a confirmed delivered
+              build price.
             </p>
             <p className="callout">
-              Scope update, November 7: the figures below are the earlier
-              supported-roll baseline, not the cost of the newly requested
-              two-axis system. Pitch mechanics, any added actuation, motion
-              control, rider fore/aft sensing, combined-axis review and
-              validation have not been quoted. The $10,000 campaign is an
-              initial funding milestone; complete-system cost, schedule and
-              affordability remain open until the revised design and quotes are
-              reconciled.
+              The tradeoff: a commercial DOF Reality H2 platform moves the
+              saddle, bars and pegs together in roll and pitch. Passive
+              instrumented steering replaces powered R9 steering for this
+              milestone. Written manufacturer acceptance of the motorcycle
+              bridge and accepted engineering/fabrication quotes are required
+              before buying. <S n={14} />
             </p>
             <div className="table-wrap">
               <table>
                 <thead>
                   <tr>
-                    <th>Earlier baseline allocation</th>
+                    <th>Roll + pitch allocation</th>
                     <th>USD</th>
-                    <th>Basis & limits</th>
+                    <th>Basis &amp; limits</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {[
-                    [
-                      "Catalog hardware",
-                      "$900.06",
-                      "Prior catalog-based estimate; refresh availability and delivered prices before buying.",
-                    ],
-                    [
-                      "Custom hardware",
-                      "$2,850.00",
-                      "Frame, controls, harness and inhibit packages; unquoted ceilings.",
-                    ],
-                    [
-                      "Engineering",
-                      "$2,500.00",
-                      "Mechanical and electrical review and commissioning allowances.",
-                    ],
-                    [
-                      "Validation",
-                      "$980.00",
-                      "Initial evaluation and test-access allowances; actual arrangements unresolved.",
-                    ],
-                    [
-                      "Delivery & tax",
-                      "$800.00",
-                      "Allowance including freight/tax/FX; not a checkout quote.",
-                    ],
-                    [
-                      "Contingency",
-                      "$1,500.00",
-                      "Retained reserve for identified uncertainties.",
-                    ],
-                  ].map(([a, b, c]) => (
-                    <tr key={a}>
-                      <td>{a}</td>
-                      <td>{b}</td>
-                      <td>{c}</td>
+                  {prototypeBudget.rows.map((row) => (
+                    <tr key={row.id}>
+                      <td>{row.item}</td>
+                      <td>${row.usd.toLocaleString("en-US")}</td>
+                      <td>{row.basis}</td>
                     </tr>
                   ))}
                   <tr className="total">
-                    <td>Earlier baseline subtotal</td>
-                    <td>$9,530.06</td>
-                    <td>
-                      $469.94 baseline headroom; no demonstrated allowance for
-                      the new pitch scope.
-                    </td>
+                    <td>Total including contingency</td>
+                    <td>$9,870</td>
+                    <td>$130 headroom against the $10,000 net-cash cap.</td>
                   </tr>
                 </tbody>
               </table>
             </div>
+            <p>
+              <a href="/downloads/motosim-roll-pitch-plan.md">
+                Read the complete hardware and cueing plan ↗
+              </a>
+              {" · "}
+              <a href="/downloads/motosim-roll-pitch-budget.json">
+                Download the itemized budget ↗
+              </a>
+            </p>
+            <h3>What braking and acceleration can feel like</h3>
+            <p>
+              Bounded pitch transients and a gradual return toward neutral can
+              suggest weight transfer, supported by VR, progressive brakes and
+              real contact points. Two axes cannot reproduce sustained
+              longitudinal acceleration. Cue direction must be checked at the
+              rider’s head and contact points: visible bike dive alone is not a
+              valid platform command. Posture sensing supports coaching, never
+              stronger motion as punishment.
+            </p>
+            <p>
+              Start with GP Bikes telemetry and a tested PC VR configuration.
+              SRS lists GP Bikes and Moto GP 2018; that does not verify current
+              MotoGP motion telemetry or native VR. Its newer IntelliComp
+              compensation needs no external tracker, but the selected
+              headset/runtime must pass testing. <S n={15} /> <S n={16} />
+            </p>
             <h3>What the campaign total means</h3>
             <p>
               The public meter measures gross paid campaign contributions less
@@ -745,12 +753,14 @@ export default function Plan() {
             </p>
             <h3>Excluded from this first stage</h3>
             <p>
-              PC and required VR headset, founder labor, production tooling,
+              The existing Windows gaming PC and monitor, founder labor, powered
+              steering, tactile shaker, full 12-rider study, production tooling,
               inventory, formal compliance testing, IP/legal work, product
               insurance, a real-world training-transfer study and broad
-              commercialization. Headset access, participant arrangements and
-              any additional operating expenses must be funded or supplied
-              before testing proceeds.
+              commercialization. A headset and wired Link cable are included in
+              this revised prototype budget. Additional premises or insurance
+              costs must be confirmed within accepted scopes or funded before
+              occupied testing.
             </p>
             <h3>Release money against evidence</h3>
             <ol>
