@@ -14,12 +14,29 @@ export const metadata: Metadata = {
   description:
     "Help build an American motorcycle racing simulator. Physical lean, steering feedback and required VR. Explore the prototype, research and funding plan.",
   openGraph: {
+    type: "website",
+    siteName: "MotoSIM",
+    locale: "en_US",
     title: "MotoSIM — The next apex is virtual.",
     description:
       "Whole-body motorcycle simulation. A real plan. A prototype worth backing.",
-    images: ["/media/racing-poster.jpg"],
+    images: [{
+      url: "/media/motosim-cyber-rider-social-v1.png",
+      width: 1734,
+      height: 907,
+      type: "image/png",
+      alt: "A wild cartoon biker carving a neon corner on a red, white and blue cyber motorcycle beneath the MotoSIM logo.",
+    }],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: {
+    card: "summary_large_image",
+    title: "MotoSIM — The next apex is virtual.",
+    description: "Whole-body motorcycle simulation. A real plan. A prototype worth backing.",
+    images: [{
+      url: "/media/motosim-cyber-rider-social-v1.png",
+      alt: "MotoSIM cartoon cyber biker on a red, white and blue racing motorcycle.",
+    }],
+  },
   icons: { icon: "/icon.svg" },
 };
 export default function RootLayout({

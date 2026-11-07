@@ -1,0 +1,13 @@
+# MotoSIM social / iMessage artwork
+
+Created November 7, 2026 using the built-in image generation tool, with `public/motosim-logo.png` as the logo reference. No fallback CLI or paid API key was used.
+
+Final project asset: `public/media/motosim-cyber-rider-social-v1.png` (1734 × 907 PNG, approximately 2.1 MiB). This is an illustration, not a hardware photograph or rider endorsement.
+
+The root metadata uses this versioned URL for both Open Graph and Twitter large-image cards, with explicit Open Graph dimensions, image type and descriptive alt text. The image is inherited by the home, business-plan and terms pages. Existing racing-video posters are unchanged. Link-preview clients may cache previously shared URLs; the new asset filename prevents reusing the old image URL, but previously sent iMessage bubbles may retain their original preview.
+
+The site's public HTTPS origin comes from `SITE_URL`, or Vercel's `VERCEL_PROJECT_PRODUCTION_URL`. Keep `SITE_URL` aligned with the deployed public domain when changing domains.
+
+## Final generation prompt
+
+Create a premium website Open Graph / Apple iMessage link preview illustration for MotoSIM, extremely wide landscape around 1.91:1 aspect ratio (1200x630 composition). Use the attached image ONLY as the brand-logo reference: reproduce the MotoSIM red checkered speed symbol and white Moto / red SIM italic wordmark faithfully and legibly, large across the upper-left/upper-center safe zone. Brand text must read MotoSIM. Main scene: a wild, original brown Tasmanian-devil-like cartoon character with a huge mischievous grin, toothy mouth, expressive eyes, spiky fur and chaotic whirlwind energy, riding a futuristic cyber racing motorcycle, banking hard into a corner toward the viewer. Looney Tunes-style golden-age slapstick cartoon energy, bold hand-inked outlines, squash-and-stretch anatomy, lively painted cel-animation shading; clever and funny, not scary. Cyber bike: muscular superbike silhouette, vibrant American red, bright white and electric-blue panels, cyan glowing wheel rims, sparks and curved motion streaks. Character wears a small futuristic VR visor lifted above its eyes so the face remains expressive, gloved hands on the bars. Dark midnight-navy background, a stylized neon racetrack sweeping through the scene, red/white/blue speed ribbons. Strong clean silhouette and generous breathing room, character and entire bike dominate center/right, logo stays unobscured. Compose all important subject/branding inside the central 85% for social cropping; readable at thumbnail scale. Crisp polished illustrated poster, dynamic dramatic foreshortening, no photorealism, no 3D plastic render. No other text or real motorcycle logos, no watermark. Solid full-bleed background.

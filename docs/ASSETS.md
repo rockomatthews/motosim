@@ -11,3 +11,5 @@
 
 - `public/motosim-logo.png`: user-supplied MotoSIM logo, copied unchanged from the attachment on November 7, 2026. Used in the header and footer.
 - `public/fonts/permanent-marker.ttf`: Permanent Marker by Font Diner, Google Fonts distribution, Apache License 2.0; license in `public/fonts/PERMANENT-MARKER-LICENSE.txt`. Used for the handwritten homepage joke; arrow is original SVG linework.
+
+- `public/media/motosim-cyber-rider-social-v1.png`: custom AI-generated cartoon cyber-biker illustration with the supplied MotoSIM logo as reference, November 7, 2026. Generated with the built-in image tool; final prompt and metadata configuration are documented in `docs/SOCIAL-PREVIEW.md`.
