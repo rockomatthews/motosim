@@ -348,7 +348,7 @@ export default function Home() {
                 "02",
                 "BENCH & PHYSICAL PROTOTYPE",
                 "Seeking funding",
-                "The revised $9,870 plan uses commercial roll/pitch motion, passive instrumented steering and included VR. Quotes, manufacturer acceptance and safe-stop testing come before rider use.",
+                "The revised $20,000 plan uses commercial roll/pitch motion, passive instrumented steering, included VR and founder development pay. Quotes, manufacturer acceptance and safe-stop testing come before rider use.",
               ],
               [
                 "03",
@@ -429,11 +429,11 @@ export default function Home() {
             ],
             [
               "Does it move forward and backward as well as side to side?",
-              "Yes—that is now part of the product target. MotoSIM is being scoped for left/right roll and front/back pitch, with braking and acceleration cues informed by rider position. We want abrupt inputs and poor body preparation to feel consequential, with engineered support, adjustable intensity, controlled force/travel and independent shutdown. The revised $9,870 plan prioritizes roll/pitch and defers powered steering. Hardware, cues and compatibility remain unvalidated; posture errors never trigger punishment motion.",
+              "Yes—that is now part of the product target. MotoSIM is being scoped for left/right roll and front/back pitch, with braking and acceleration cues informed by rider position. We want abrupt inputs and poor body preparation to feel consequential, with engineered support, adjustable intensity, controlled force/travel and independent shutdown. The revised $20,000 plan prioritizes roll/pitch and defers powered steering. Hardware, cues and compatibility remain unvalidated; posture errors never trigger punishment motion.",
             ],
             [
               "What happens if the prototype costs more?",
-              "The revised roll/pitch plan totals $9,870 including a headset, $900 tax/import/other-delivery allowance and $1,000 contingency, leaving $130 headroom. It assumes an existing gaming PC and defers powered steering and the full 12-rider study. Custom scopes are spending caps, not accepted quotes. We reconcile manufacturer approval, landed prices and net campaign cash before buying; the campaign goal is not a guaranteed complete-system price.",
+              "The revised campaign budget is $20,000: hardware including a purchased VR headset, engineering and testing, $6,000 founder development compensation, $2,000 contingency and an $880 fees/benefits allowance. It assumes an existing gaming PC and defers powered steering and the full 12-rider study. Custom work remains unquoted. We reconcile actual net cash, manufacturer approval and landed prices before commitments.",
             ],
           ].map(([q, a]) => (
             <details key={q}>

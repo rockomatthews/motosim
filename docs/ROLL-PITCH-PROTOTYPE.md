@@ -1,6 +1,6 @@
-# MotoSIM roll + pitch prototype — MS-P1-RP1
+# MotoSIM roll + pitch prototype — MS-P1-RP2
 
-Updated November 7, 2026. **Conditional cash plan: $9,870 including $1,000 contingency; $130 unallocated under $10,000.** No physical assembly, accepted custom quote, approved load envelope or occupied test exists yet. This replaces the October 25 passive-roll/powered-steering procurement route for the next prototype. It is a feasibility demonstrator, not a production unit or proven rider-training device.
+Updated November 7, 2026. **Campaign budget: $20,000 including $6,000 founder compensation, a purchased VR headset, $2,000 contingency and $880 for fees/benefit fulfillment. All $20,000 is allocated.** No physical assembly, accepted custom quote, approved load envelope or occupied test exists yet. This replaces the October 25 passive-roll/powered-steering procurement route for the next prototype. It is a feasibility demonstrator, not a production unit or proven rider-training device.
 
 ## Selected hardware architecture
 
@@ -41,26 +41,28 @@ Amounts are spending ceilings unless explicitly identified as a current catalog 
 | RP01 | DOF Reality H2 full-platform roll/pitch | $2,499 | Current US catalog listing; not a delivered quote |
 | RP02 | H2 freight to United States | $691 | Manufacturer country-level shipping estimate; ZIP quote pending |
 | RP03 | Controls and independent rider sensing | $500 | Ceiling based on retained October catalog lines plus added sensors; refresh prices |
-| RP04 | Bolt-on motorcycle bridge and passive steering | $850 | Unquoted complete fabrication ceiling |
-| RP05 | Harness, guarding and shutdown integration | $600 | Unquoted complete installed ceiling |
-| RP06 | Mechanical/electrical review and commissioning | $1,800 | Unquoted fixed-scope service ceiling |
+| RP04 | Bolt-on motorcycle bridge and passive steering | $1,500 | Unquoted complete fabrication ceiling |
+| RP05 | Harness, guarding and shutdown integration | $1,000 | Unquoted complete installed ceiling |
+| RP06 | Mechanical/electrical review and commissioning | $3,000 | Unquoted fixed-scope service ceiling |
 | RP07 | PC VR headset and wired Link cable | $430 | Quest 3S 128 GB $349.99 plus Meta Link cable $79.99, rounded up; runtime test required |
 | RP08 | Motion compensation and tracking fallback | $180 | $19.99 first-year SRS Premium listing plus $160.01 fallback allowance |
 | RP09 | Game licenses and software allowance | $120 | Spending allowance; game versions/compatibility unproven |
 | RP10 | Bench consumables and four-rider feasibility pilot | $300 | Expense allowance, not recruited participants |
 | RP11 | Tax, imports, other deliveries and currency fees | $900 | Allowance; no tax/duty rate or landed quote assumed |
-| RP12 | Ring-fenced revision contingency | $1,000 | Reserved cash |
-| | **Planned total, including reserve** | **$9,870** | Conditional ceilings |
-| | Unallocated headroom | $130 | Cap $10,000 |
+| RP12 | Ring-fenced revision contingency | $2,000 | Reserved cash |
+| RP13 | Founder development compensation | $6,000 | Planning allocation: 200 hours at $30/hour; gross compensation before personal taxes |
+| RP14 | Payment processing and campaign benefit fulfillment | $880 | Combined planning allowance; actual fees and benefit costs depend on contribution mix |
+| | **Planned total, including reserve** | **$20,000** | Conditional ceilings |
+| | Unallocated headroom | $0 | Cap $20,000 |
 <!-- budget-table:end -->
 
-The $900 tax/import/other-delivery line is additional to the separately counted $691 H2 freight. It is an allowance, not a tariff calculation. Obtain destination-specific Park City, UT 84060 totals, including brokerage and who is importer of record. The cap requires at least $9,870 **net available cash**, after any campaign fees and reward costs paid elsewhere.
+The $900 tax/import/other-delivery line is additional to the separately counted $691 H2 freight. It is an allowance, not a tariff calculation. Obtain destination-specific Park City, UT 84060 totals, including brokerage and who is importer of record. The $20,000 campaign target is gross contributions. The plan allocates $880 to payment fees and campaign benefits, leaving $19,120 for the other allocations, including founder pay and contingency. Reconcile actual net cash before commitments.
 
-The $850 fabrication package must include all labor, contact surfaces, passive column, adapter and control mechanisms. The $600 harness/guard/shutdown package includes installation; the $1,800 review/commissioning package includes calibrated tools and is split $900 mechanical / $900 electrical, software and commissioning. These are demanding unquoted caps. They become credible only if qualified suppliers accept the complete scopes. Founder implementation labor is excluded, not silently described as paid engineering. Do not buy a pile of parts and assume remaining fabrication labor is free.
+The $1,500 fabrication package must include all labor, contact surfaces, passive column, adapter and control mechanisms. The $1,000 harness/guard/shutdown package includes installation; the $3,000 review/commissioning package includes calibrated tools and is split $1,500 mechanical / $1,500 electrical, software and commissioning. These are unquoted planning caps. They become credible only if qualified suppliers accept the complete scopes. Founder implementation work has its own $6,000 compensation allocation: 200 planned hours at $30/hour, gross before personal taxes. This covers software/integration, coordination, documentation and test preparation; record time and pay against completed milestones. It is separate from contractor engineering and is not company profit or a claim of completed work. Do not buy a pile of parts and assume remaining fabrication labor is free.
 
 Controls allowance detail: retain previous B04–B16 lines ($443.06 historical planning subtotal), add two fore/aft VL53L1X sensors ($29.90), two pots for pitch/steering angle ($1.90), and two branch leads ($1.90): $476.76, leaving $23.24 under $500 for sensor spares/price movement. Refresh each supplier price; the figures inherited from October are not newly confirmed quotes. Structural overload paths bypass the load cells and pots.
 
-The $430 headset/cable cap rounds up current [Quest 3S 128 GB $349.99](https://www.meta.com/quest/quest-3s/) and [Meta Link cable $79.99](https://www.meta.com/quest/accessories/link-cable/). It assumes an existing suitable Windows gaming PC. If a compatible headset/cable is already available, the cash need falls to **$9,440**; preserve the $1,000 reserve. A new gaming PC does not fit this plan.
+The $430 headset/cable cap rounds up current [Quest 3S 128 GB $349.99](https://www.meta.com/quest/quest-3s/) and [Meta Link cable $79.99](https://www.meta.com/quest/accessories/link-cable/). It assumes an existing suitable Windows gaming PC. If a compatible headset/cable is already available, the cash need falls to **$19,570**; preserve the $2,000 reserve. A new gaming PC does not fit this plan.
 
 ## Software, VR and game acceptance
 
@@ -72,7 +74,7 @@ Use a confirmed PC VR runtime path for the chosen GP Bikes/headset versions; hea
 
 ## Procurement and acceptance gates
 
-1. **Feasibility before hardware.** Within RP06, first commission a capped $300 review slice, leaving $1,500 of that line. Obtain manufacturer written acceptance of the motorcycle attachment, mounting points, total moving mass, rider range, center of gravity, asymmetric bar/peg loads and mounting/dismounting. Do not modify the factory drivetrain or rely on marketing payload numbers as an engineering envelope. If the manufacturer declines, stop and redesign; the budget does not price a different platform.
+1. **Feasibility before hardware.** Within the $3,000 RP06 allocation, first commission a capped $300 review slice, leaving $2,700 of that line. Obtain manufacturer written acceptance of the motorcycle attachment, mounting points, total moving mass, rider range, center of gravity, asymmetric bar/peg loads and mounting/dismounting. Do not modify the factory drivetrain or rely on marketing payload numbers as an engineering envelope. If the manufacturer declines, stop and redesign; the budget does not price a different platform.
 2. **Firm scope and landed price.** Obtain accepted itemized quotes for RP04–RP06 and full delivery/tax totals. Include support/guard design, access to test space and appropriate coverage. A new premises or insurance cost requires a funded scope decision before occupied tests. Reconcile all commitments in one ledger. No RFQ has been sent for this revision and no purchase is authorized by this document.
 3. **Unoccupied structural acceptance.** Engineer checks combined roll/pitch extremes, off-center rider surrogates, braking/bar/peg loads, overturning, single failures, mounting lock, guarded crush zones, cable loops and power-off support. The assembly must remain supported without active balancing. Do not invent an automotive belt or powered harness on a straddled saddle; engineer any retention/exit arrangement.
 4. **Unoccupied control acceptance.** Test accessible stop, stale telemetry, frozen game, USB disconnect, loss of power, software restart, controller reconnect and unintended command steps. Document how motion is inhibited and how deliberate rearm works through supported factory interfaces. Power loss must not cause collapse or unexpected return motion. A game crash must not leave an old sustained command active. If this cannot be achieved within the cap, no occupied release.
@@ -86,11 +88,11 @@ Use a confirmed PC VR runtime path for the chosen GP Bikes/headset versions; hea
 | Passive supported roll, powered R9 steering | Powered roll + pitch, passive instrumented steering |
 | Bespoke roll frame/pivot/springs/dampers | Commercial complete two-axis drivetrain, custom contact-point bridge |
 | Headset excluded | Headset + wired PC link included |
-| $2,500 engineering, $1,500 contingency | $1,800 narrowed review/commissioning cap, $1,000 contingency |
+| $2,500 engineering, $1,500 contingency | $3,000 review/commissioning cap, $2,000 contingency |
 | 12-rider repeated evaluation | Four-rider feasibility pilot; full study deferred |
 
 Powered steering, tactile shaker/amp, wind, active belts, surge, yaw, heave, cosmetic bodywork, a new PC, production tooling, compliance, legal work and a training-transfer trial are outside this milestone. The commercial platform also does not substantiate a $1,999 retail product or an unqualified US-made claim.
 
 ## If quotes are high
 
-The $130 unallocated margin is small; the reserve is not an upgrade fund. A $300 landed-cost increase raises the plan to $10,170 if the full $1,000 reserve is preserved. Do not call that under budget. First use confirmed compatible owned VR equipment if available, simplify nonstructural adjustability/finish, or obtain an accepted lower-cost complete fabrication quote. Do not remove stops, guards, review or fault acceptance. If full scopes still exceed the cap, retain the software/unoccupied milestone and return with the explicit funding gap before committing. Optional tactile feedback can be quoted later; no unpriced amplifier, PSU or mounting is assumed included.
+The $20,000 plan allocates the full campaign goal, including $2,000 reserved for genuine overruns and $6,000 for founder development compensation. For example, a $300 landed-cost increase can be covered by the contingency, leaving $1,700; it is not additional headroom. Reconcile accepted quotes, gross contributions, fees and remaining obligations before committing. Paid founder work is a project cost and should be recorded separately from contractor invoices. Do not count the same labor, reserve or fee allowance twice. If accepted scopes exceed available cash and reserve, revise scope or report the funding gap before ordering. Optional powered steering, tactile feedback or a larger rider study needs its own allocation.

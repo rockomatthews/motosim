@@ -1,8 +1,8 @@
 {
-  "version": "MS-P1-RP1",
+  "version": "MS-P1-RP2",
   "asOf": "2026-11-07",
   "currency": "USD",
-  "capUsd": 10000,
+  "capUsd": 20000,
   "status": "Conditional planning ceilings; no accepted custom quotes or hardware validation",
   "architecture": "Commercial full-platform roll/pitch; passive instrumented steering; compact motorcycle contact-point bridge; PC VR",
   "rows": [
@@ -33,7 +33,7 @@
     {
       "id": "RP04",
       "item": "Bolt-on motorcycle bridge and passive steering",
-      "usd": 850,
+      "usd": 1500,
       "basis": "Unquoted complete fabrication ceiling",
       "source": "",
       "scope": "All material, shop labor, saddle/pads, knee contacts, pegs, bar column/bearings/centering/damping/stops, adapter, brake/clutch/throttle/shift mechanisms, switches, brackets, fasteners, overload protection and assembly. No second roll gimbal."
@@ -41,7 +41,7 @@
     {
       "id": "RP05",
       "item": "Harness, guarding and shutdown integration",
-      "usd": 600,
+      "usd": 1000,
       "basis": "Unquoted complete installed ceiling",
       "source": "",
       "scope": "Protected signal wiring, boxes, USB hub/cables, strain relief, moving loops, guarding, mounting lock/support, accessible stop, reviewed fault inhibit/restart integration and installation. Manufacturer-supported interface only; exact safety parts pending design."
@@ -49,10 +49,10 @@
     {
       "id": "RP06",
       "item": "Mechanical/electrical review and commissioning",
-      "usd": 1800,
+      "usd": 3000,
       "basis": "Unquoted fixed-scope service ceiling",
       "source": "",
-      "scope": "Mechanical $900; electrical/control/VR commissioning $900. Combined-axis load/stability/CoG review, drawings, interface and shutdown acceptance, calibrated bench-tool access and test record. Scope acceptance required; not an assumed number of free contractor hours."
+      "scope": "Mechanical $1,500; electrical/control/VR commissioning $1,500. Combined-axis load/stability/CoG review, drawings, interface and shutdown acceptance, calibrated bench-tool access and test record. Scope acceptance required; not an assumed number of free contractor hours."
     },
     {
       "id": "RP07",
@@ -97,24 +97,38 @@
     {
       "id": "RP12",
       "item": "Ring-fenced revision contingency",
-      "usd": 1000,
+      "usd": 2000,
       "basis": "Reserved cash",
       "source": "",
       "scope": "Fit changes, replacement components and genuine overruns; not available for optional upgrades at order time."
+    },
+    {
+      "id": "RP13",
+      "item": "Founder development compensation",
+      "usd": 6000,
+      "basis": "Planning allocation: 200 hours at $30/hour; gross compensation before personal taxes",
+      "source": "",
+      "scope": "Rob\u2019s prototype software, game/control integration, project management, procurement coordination, build documentation and test preparation. Paid work recorded against milestones; separate from contractor engineering and company profit. Not a claim of completed hours."
+    },
+    {
+      "id": "RP14",
+      "item": "Payment processing and campaign benefit fulfillment",
+      "usd": 880,
+      "basis": "Combined planning allowance; actual fees and benefit costs depend on contribution mix",
+      "source": "",
+      "scope": "Payment processing and digital/community benefit delivery. Reconcile actual fees and fulfillment obligations before commitments; no assumed processor rate or full allowance guaranteed sufficient."
     }
   ],
-  "plannedTotalUsd": 9870,
-  "unallocatedUsd": 130,
+  "plannedTotalUsd": 20000,
+  "unallocatedUsd": 0,
   "excluded": [
     "Existing VR-capable Windows PC and monitor",
-    "Founder implementation labor",
     "Powered steering feedback and its motor integration",
     "Tactile shaker, wind, active belts, surge/yaw/heave axes",
     "Full 12-rider repeated-session study",
     "Extra premises/insurance costs unless confirmed within accepted test scope",
     "Production tooling, inventory, compliance, IP/legal work and training-transfer trials",
-    "Future software subscription renewals",
-    "Campaign fees and reward fulfillment, which must be funded separately from this net-cash cap"
+    "Future software subscription renewals"
   ],
   "releaseGates": [
     "Written H2 manufacturer acceptance of motorcycle bridge, moving mass, rider envelope, CoG and load cases",
@@ -123,5 +137,6 @@
     "Unoccupied structural, shutdown, stale-input, disconnect and no-auto-restart tests",
     "Verified GP Bikes telemetry, control separation and selected PC VR compensation stack",
     "Engineer-approved occupied envelope and test arrangements before rider pilot"
-  ]
+  ],
+  "fundingBasis": "USD 20,000 gross campaign goal; USD 880 fees/benefits allocation; USD 19,120 for remaining allocations including USD 6,000 founder compensation and USD 2,000 contingency."
 }

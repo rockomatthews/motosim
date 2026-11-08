@@ -34,6 +34,13 @@ export default function Terms() {
           is not all-or-nothing or escrowed. Funds may be used before the target
           is reached.
         </p>
+        <p>
+          The $20,000 plan includes $6,000 in founder development compensation
+          for software, integration, coordination and documentation, alongside
+          hardware, engineering, testing, a $2,000 contingency and an $880
+          processing/benefit-fulfillment allowance. Founder compensation pays
+          for project work and does not provide contributors an ownership stake.
+        </p>
         <h2>Digital and community benefits</h2>
         <ul>
           <li>
@@ -89,7 +96,7 @@ export default function Terms() {
           disputed charges, as reported by Stripe. It excludes unrelated
           payments and does not count abandoned checkouts. Test-mode totals are
           labeled. Totals may lag, and processor fees are not deducted from the
-          displayed amount. The $10,000 campaign target is a gross contribution
+          displayed amount. The $20,000 campaign target is a gross contribution
           target; spendable cash may be lower.
         </p>
         <h2 id="privacy">Privacy & contact requests</h2>
@@ -118,8 +125,9 @@ export default function Terms() {
           email Rob. Some transaction records may need to be retained.
         </p>
         <p>
-          Your music mute preference is saved locally in your browser. The site includes locally hosted stock racing media, locally hosted
-          Barlow fonts and a 3D concept. This build does not install marketing
+          Your music mute preference is saved locally in your browser. The site
+          includes locally hosted stock racing media, locally hosted Barlow
+          fonts and a 3D concept. This build does not install marketing
           analytics, advertising pixels or a newsletter subscription. External
           sites have their own privacy policies.
         </p>
@@ -131,9 +139,9 @@ export default function Terms() {
           instruction and protective equipment remain essential.
         </p>
         <p>
-          MotoSIM uses the project’s supplied racing-inspired mark. MotoSIM has no
-          claimed affiliation, license or endorsement from MotoGP, Dorna, MOZA,
-          competing manufacturers, depicted riders or stock-media brands.
+          MotoSIM uses the project’s supplied racing-inspired mark. MotoSIM has
+          no claimed affiliation, license or endorsement from MotoGP, Dorna,
+          MOZA, competing manufacturers, depicted riders or stock-media brands.
           Product names identify sources or research candidates only.
         </p>
         <a className="button red" href="/#funding">

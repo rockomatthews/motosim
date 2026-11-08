@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
-import { tiers } from "@/lib/campaign.mjs";
+import { tiers, GOAL_CENTS } from "@/lib/campaign.mjs";
 const Bar = dynamic(() => import("./RigScene"), { ssr: false });
 type FundingState = {
   amount: number | null;
@@ -20,7 +20,7 @@ const money = (c: number) =>
 export default function Funding() {
   const [state, setState] = useState<FundingState>({
     amount: null,
-    goal: 1000000,
+    goal: GOAL_CENTS,
     backers: null,
     enabled: false,
     status: "loading",
@@ -85,7 +85,7 @@ export default function Funding() {
   return (
     <section id="funding" className="funding section-pad">
       <div className="section-top">
-        <span className="eyebrow">06 / THE FIRST $10,000</span>
+        <span className="eyebrow">06 / THE FIRST $20,000</span>
         <span className="micro">SMALL START. REAL MILESTONES.</span>
       </div>
       <div className="funding-intro">
@@ -98,9 +98,10 @@ export default function Funding() {
           <p>
             Your contribution helps turn engineering work into a physical
             prototype. This first campaign funds feasibility and staged
-            development toward roll, pitch and rider-aware feedback. The
-            expanded motion scope needs revised engineering and quotes before a
-            complete build is committed.
+            development toward roll, pitch and rider-aware feedback. The budget
+            includes a VR headset, $6,000 in founder development compensation
+            and $2,000 contingency. Engineering approval and accepted quotes
+            come before a complete build is committed.
           </p>
           <a className="text-link" href="/plan#capital">
             Read the use-of-funds plan ↗

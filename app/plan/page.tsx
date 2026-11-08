@@ -5,7 +5,7 @@ import prototypeBudget from "@/public/downloads/motosim-roll-pitch-budget.json";
 export const metadata: Metadata = {
   title: "The business plan",
   description:
-    "MotoSIM’s evidence-led consumer motorcycle simulator business plan: competition, engineering, $10,000 prototype funding, financial assumptions and validation gates.",
+    "MotoSIM’s evidence-led consumer motorcycle simulator business plan: competition, engineering, $20,000 prototype funding, financial assumptions and validation gates.",
 };
 const sources = [
   [
@@ -192,12 +192,13 @@ export default function Plan() {
               <div>
                 <h3>What this raise buys</h3>
                 <p>
-                  A $10,000 first-stage campaign to resolve feasibility,
+                  A $20,000 first-stage campaign to resolve feasibility,
                   commission reviewed mechanical/electrical work, and progress
-                  through staged prototype gates. The revised $9,870 roll/pitch
-                  plan includes VR and contingency, defers powered steering, and
-                  starts with four experienced riders. Custom quotes,
-                  manufacturer approval and game/VR acceptance remain open.
+                  through staged prototype gates. The revised $20,000 roll/pitch
+                  plan includes VR, $6,000 founder development compensation and
+                  $2,000 contingency, defers powered steering, and starts with
+                  four experienced riders. Custom quotes, manufacturer approval
+                  and game/VR acceptance remain open.
                 </p>
               </div>
             </div>
@@ -487,8 +488,8 @@ export default function Plan() {
               appropriate. Avoid a proprietary physics engine, decorative
               bodywork, multi-game support promises, and production tooling
               before the core ride is established. Required VR is a product
-              requirement; the revised $9,870 plan includes a headset and pitch,
-              while assuming an existing suitable gaming PC. This
+              requirement; the revised $20,000 plan includes a headset and
+              pitch, while assuming an existing suitable gaming PC. This
               commercial-platform demonstrator does not substantiate the target
               retail price.
             </p>
@@ -671,16 +672,17 @@ export default function Plan() {
           <section id="capital" className="plan-section">
             <span className="eyebrow">07 / USE OF FUNDS</span>
             <h2>
-              The first $10,000.
+              The first $20,000.
               <br />
               <em>Roll. Pitch. Prove it.</em>
             </h2>
             <p>
-              The November 7 prototype plan allocates $9,870, including a VR
-              headset, $900 for taxes/imports/other deliveries and a $1,000
-              contingency. That leaves $130 unallocated. This is a conditional
-              cash plan with unquoted custom work, not a confirmed delivered
-              build price.
+              The revised campaign budget is $20,000, including a purchased VR
+              headset, $6,000 in founder development compensation, $3,000 for
+              engineering and commissioning, $2,000 contingency and $880 for
+              processing fees and campaign benefits. Custom work remains
+              unquoted; these allocations are planning ceilings rather than
+              accepted prices.
             </p>
             <p className="callout">
               The tradeoff: a commercial DOF Reality H2 platform moves the
@@ -709,8 +711,11 @@ export default function Plan() {
                   ))}
                   <tr className="total">
                     <td>Total including contingency</td>
-                    <td>$9,870</td>
-                    <td>$130 headroom against the $10,000 net-cash cap.</td>
+                    <td>$20,000</td>
+                    <td>
+                      Fully allocated, including $2,000 contingency and $880
+                      fees/benefits.
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -743,18 +748,26 @@ export default function Plan() {
             </p>
             <h3>What the campaign total means</h3>
             <p>
-              The public meter measures gross paid campaign contributions less
-              refunds and disputed charges; it does not deduct Stripe fees or
-              campaign benefit costs. Therefore $10,000 on the meter does not
-              equal $10,000 of spendable prototype cash. Before commitments,
-              reconcile net available cash and reduce scope or secure separate
-              funds if fees or incentives create a gap. Never spend the same
-              reserve twice.
+              The meter measures gross paid campaign contributions less refunds
+              and disputed charges. The $20,000 goal includes an $880 processing
+              and benefit-fulfillment allowance, leaving $19,120 for the
+              remaining allocations. Actual fees and fulfillment costs depend on
+              the contribution mix; reconcile net cash before commitments.
+            </p>
+            <h3>Paying for the work</h3>
+            <p>
+              The $6,000 founder allocation budgets 200 hours at $30/hour for
+              Rob’s software development, game/control integration, procurement
+              coordination, documentation and test preparation. It is gross
+              compensation before personal taxes, separate from contractor
+              engineering. Record work and release compensation against
+              completed milestones; these are planned hours, not hours already
+              worked.
             </p>
             <h3>Excluded from this first stage</h3>
             <p>
-              The existing Windows gaming PC and monitor, founder labor, powered
-              steering, tactile shaker, full 12-rider study, production tooling,
+              The existing Windows gaming PC and monitor, powered steering,
+              tactile shaker, full 12-rider study, production tooling,
               inventory, formal compliance testing, IP/legal work, product
               insurance, a real-world training-transfer study and broad
               commercialization. A headset and wired Link cable are included in
