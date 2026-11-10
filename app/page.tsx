@@ -141,7 +141,7 @@ export default function Home() {
         >
           <figure>
             <Image
-              src="/media/motosim-cyber-rider-social-v1.png"
+              src="/media/motosim-cyber-rider-social-v2.webp"
               alt="MotoSIM’s wild cartoon cyber biker leaning a red, white and blue motorcycle into a neon corner, with the MotoSIM logo overhead."
               width={1734}
               height={907}

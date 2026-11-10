@@ -20,22 +20,27 @@ export const metadata: Metadata = {
     title: "MotoSIM — The next apex is virtual.",
     description:
       "Whole-body motorcycle simulation. A real plan. A prototype worth backing.",
-    images: [{
-      url: "/media/motosim-cyber-rider-social-v1.png",
-      width: 1734,
-      height: 907,
-      type: "image/png",
-      alt: "A wild cartoon biker carving a neon corner on a red, white and blue cyber motorcycle beneath the MotoSIM logo.",
-    }],
+    images: [
+      {
+        url: "/media/motosim-cyber-rider-social-v2.webp",
+        width: 1734,
+        height: 907,
+        type: "image/webp",
+        alt: "A wild cartoon biker carving a neon corner on a red, white and blue cyber motorcycle beneath the MotoSIM logo.",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "MotoSIM — The next apex is virtual.",
-    description: "Whole-body motorcycle simulation. A real plan. A prototype worth backing.",
-    images: [{
-      url: "/media/motosim-cyber-rider-social-v1.png",
-      alt: "MotoSIM cartoon cyber biker on a red, white and blue racing motorcycle.",
-    }],
+    description:
+      "Whole-body motorcycle simulation. A real plan. A prototype worth backing.",
+    images: [
+      {
+        url: "/media/motosim-cyber-rider-social-v2.webp",
+        alt: "MotoSIM cartoon cyber biker on a red, white and blue racing motorcycle.",
+      },
+    ],
   },
   icons: { icon: "/icon.svg" },
 };

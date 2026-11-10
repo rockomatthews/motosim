@@ -13,3 +13,5 @@
 - `public/fonts/permanent-marker.ttf`: Permanent Marker by Font Diner, Google Fonts distribution, Apache License 2.0; license in `public/fonts/PERMANENT-MARKER-LICENSE.txt`. Used for the handwritten homepage joke; arrow is original SVG linework.
 
 - `public/media/motosim-cyber-rider-social-v1.png`: custom AI-generated cartoon cyber-biker illustration with the supplied MotoSIM logo as reference, November 7, 2026. Generated with the built-in image tool; final prompt and metadata configuration are documented in `docs/SOCIAL-PREVIEW.md`.
+
+- `public/media/motosim-cyber-rider-social-v2.webp`: replacement cyber-biker artwork supplied by Rob on November 9, 2026. Exact copy of the attached WebP, 1734 × 907; used for the homepage artwork and social/iMessage metadata. Supersedes the generated v1 PNG above.
